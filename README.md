@@ -1,8 +1,30 @@
-# React + Vite
+El objetivo de este proyecto es desarrollar un portal de noticias utilizando Tailwind CSS para la estilización y RTK Query para la obtención de datos. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+API a Utilizar:
+News API: [News API Documentation](https://www.newsapi.ai/documentation?tab=introduction)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Requisitos del Proyecto:
+Home Page:
+Listado de las últimas noticias destacadas.
+Diseño responsivo que se adapte a diferentes tamaños de pantalla.
+Barra de navegación con enlaces a diferentes secciones del sitio.
+Vista de Detalle del Artículo:
+Muestra detalles completos del artículo seleccionado.
+Sección de artículos relacionados en la parte inferior de la página.
+Filtrado y Búsqueda (en una vista):
+Implementar filtrado de noticias por categorías.
+Barra de búsqueda para encontrar artículos específicos (solo incluirla en la vista de búsqueda).
+Diseño y Estilo:
+Utilizar Tailwind CSS para una estilización moderna y rápida.
+Incorporar componentes reutilizables y consistentes en toda la aplicación.
+Debe tener modo claro y oscuro (elegible por el usuario a través de un Icono en la navbar), este icono debe responder al modo en que se encuentre, es decir, indicar el estado de la app.
+Navbar: 
+Incluir selector de tema (oscuro, claro)
+Home
+Vista de búsqueda (List)
+Gestión del Estado:
+Aplicar RTK Query para el fetching y cache de datos.
+Funciones Avanzadas:
+Implementar la carga perezosa (lazy loading) de imágenes y contenido.
+Crear una función de paginación para navegar entre artículos.
+No olvidar que la entrega debe incluir un repo en Github, y el proyecto desplegado.
