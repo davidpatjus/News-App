@@ -21,7 +21,7 @@ Debe tener modo claro y oscuro (elegible por el usuario a través de un Icono en
 Navbar: 
 Incluir selector de tema (oscuro, claro)
 
-demo: https://patsnewsapp.netlify.app/
+
 Home
 Vista de búsqueda (List)
 Gestión del Estado:
@@ -30,3 +30,5 @@ Funciones Avanzadas:
 Implementar la carga perezosa (lazy loading) de imágenes y contenido.
 Crear una función de paginación para navegar entre artículos.
 No olvidar que la entrega debe incluir un repo en Github, y el proyecto desplegado.
+
+demo: https://patsnewsapp.netlify.app/
