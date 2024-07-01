@@ -20,6 +20,8 @@ Incorporar componentes reutilizables y consistentes en toda la aplicación.
 Debe tener modo claro y oscuro (elegible por el usuario a través de un Icono en la navbar), este icono debe responder al modo en que se encuentre, es decir, indicar el estado de la app.
 Navbar: 
 Incluir selector de tema (oscuro, claro)
+
+demo: https://patsnewsapp.netlify.app/
 Home
 Vista de búsqueda (List)
 Gestión del Estado:
