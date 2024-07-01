@@ -9,7 +9,7 @@ export const newsSlice = createApi({
     getArticles: builder.query({
       query: (params) => {
         const urlParams = new URLSearchParams(params);
-        urlParams.set("apiKey", import.meta.env.VITE_API_KEY);
+        urlParams.set("apiKey", 'b99abfb5-7c01-4ab9-bfd6-f1b326d1fff4');
 
         return {
           url: "article/getArticles",
@@ -26,7 +26,7 @@ export const newsSlice = createApi({
       query: (id) => {
         const urlParams = new URLSearchParams();
         urlParams.set("articleUri", id); // Aquí se establece articleUri con el valor de id
-        urlParams.set("apiKey", import.meta.env.VITE_API_KEY);
+        urlParams.set("apiKey", 'b99abfb5-7c01-4ab9-bfd6-f1b326d1fff4');
 
         return {
           url: "article/getArticle",
@@ -42,7 +42,7 @@ export const newsSlice = createApi({
     getBreakingEvents: builder.query({
       query: (params) => {
         const urlParams = new URLSearchParams(params);
-        urlParams.set("apiKey", import.meta.env.VITE_API_KEY);
+        urlParams.set("apiKey", 'b99abfb5-7c01-4ab9-bfd6-f1b326d1fff4');
 
         return {
           url: "event/getBreakingEvents",
